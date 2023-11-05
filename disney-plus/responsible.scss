@@ -1,0 +1,415 @@
+@media screen and (max-width: 768px) {
+
+   
+    .arka-plan {
+
+        background-image:url(./mediaqueryimages/background-img-2.jpeg);
+    }
+
+    .nav-bar {
+        
+        height: 10vh;
+
+        .logo {
+            width: 50px;
+            margin-right: 400px;
+        }
+
+        .uye-ol, .uye-girisi {
+            display: inline-block;
+            width: 115px;
+            height: 50px;
+            
+
+        }
+        .uye-ol a,
+         .uye-girisi a {
+        font-family: Avenir,sans-serif;
+        padding: 4px;
+        font-size: 12px;
+        text-align: -webkit-match-parent;
+        
+         }
+        
+        }
+
+        .header-yazi {
+            max-width: 500px;
+            width: 100%;
+            margin-left: 120px;
+            margin-top: 250px;
+            font-size: 26px;
+            line-height: 36px;
+            
+        }
+        .header-animation{
+            margin-top: 80px;
+        }
+        .header-two {
+            margin-top: 550px;
+            letter-spacing: normal;
+            display: block;
+            text-align: center;
+            
+            .buyuk-yazi  {
+             text-align: center;
+             margin-top: 35px;
+             font-size: 12px;
+             margin-left: 188px;
+             width: auto;
+
+           
+
+            }
+            .kucuk-yazi {
+                width: 614px;
+                display: contents;
+                font-size: 16px;
+                z-index: 3;
+                margin-top: -268px;
+                display: block;
+
+            }
+           }
+
+           .header-two-image {
+
+            display: none;
+            
+
+           }
+           .header-two-image-media {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            margin-top: -182px;
+            position: absolute;
+           }
+           .header-two-image-media img {
+            width: 100%;
+            height: 100%;
+           }
+           .header-three {
+            margin-top: 1150px;
+
+            .header-three-p1  {
+                font-size: 13px;   
+            }
+
+           }
+
+           .header-three-p2 {
+            font-size: 14px;
+           }
+
+           .header-three-image {
+
+            display: block;
+            height: 500px;
+            width: 900px;
+            margin-left: -105px;
+            margin-top: 50px;
+
+           }
+           .header-four {
+            ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            
+                
+
+             
+           }
+           .glid-list-one img, .glid-list-two img, .glid-list-three img {
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+           }
+
+           .header-four-p2 {
+            width: auto;
+            font-size: 16px;
+           }
+           .header-four-p1 {
+            font-size: 20px;
+            display: inline;
+            text-align: center;
+            
+           }
+
+           .header-five {
+            margin-top: 5rem;
+           }
+
+           .glid-list-one, .glid-list-two, .glid-list-three {
+            padding: 20px;
+           }
+           .five-content-h1 {
+            font-size: 22px;
+            color: rgb(235, 235, 235);
+            
+           }
+           .a-c {
+            padding: 18px;
+          }
+        
+          .a-c-h1 {
+            margin-left: 1rem;
+            font-size: 15px;
+          }
+        
+          .a-c-plus {
+            font-size: 29px;
+            margin-right: 0.5rem;
+          }
+
+          .six-content-h1 {
+            display: block;
+            text-align: center;
+            font-size: 22px;
+            margin-left: -12px;
+            width: 100%;
+            margin-top: 82px;
+          
+          }
+          
+          .six-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            margin-bottom: 2em;
+          }
+          .six-list-one, .six-list-two, .six-list-three, .six-list-four {
+            width: 40%;
+            
+          }
+
+          .six-list-one {
+            margin-left: -360px
+          }
+          .six-list-two {
+            margin-right: -234px;
+            margin-top: -443px;
+
+
+          }
+
+          .six-list-three {
+            margin-left: -368px;
+            margin-top: 228px;
+          }
+          .six-list-four {
+            margin-right: -250px;
+            margin-top: -274px;
+          }
+
+          .text-small {
+            margin-top: -89px;
+            font-size: 13px;
+            margin-left: -4rem;
+          }
+          
+          
+            .footer-info {
+                font-size: 8px;
+                padding: 8px 10px;
+              }
+            
+          .lng {
+            border: none;
+            background-color: #040714;
+            color: #ffffff9a;
+            font-size: 8px;
+            padding: 0px 10px;
+          }
+          .footer2 {
+            width: 25%;
+            font-size: 0.5rem;
+            margin-top: 1rem;
+          }
+          .footer-flex-container img {
+            display: block;
+            margin-left: 181px;
+
+          }
+          .footer .footer1 {
+            margin-inline-start: 1rem;
+
+        
+        
+          }
+          .footer2 {
+            width: auto;
+            margin-inline-start: 12rem;
+          }
+          .footerson {
+            font-size: 10px;
+            color: silver;
+          }
+           
+        }
+
+
+        @media only screen and (max-width: 600px) {
+
+            .arka-plan {
+
+                background-image:url(./mediaqueryimages/background-img4.jpeg);
+            }
+            .nav-bar {
+        
+                height: 8vhvh;
+        
+                .logo {
+                    width: 30px;
+                    margin-right: 300px;
+                }
+        
+                .uye-ol, .uye-girisi {
+                    display: inline-block;
+                    width: 90px;
+                    height: 40px;
+                    
+        
+                }
+                .uye-ol a,
+                 .uye-girisi a {
+                font-family: Avenir,sans-serif;
+                padding: 2px;
+                font-size: 8px;
+                text-align: -webkit-match-parent;
+                
+                 }
+                
+                }
+
+                .header-yazi {
+                    max-width: 400px;
+                    width: 100%;
+                    margin-left: 100px;
+                    margin-top: 280px;
+                    font-size: 26px;
+                    line-height: 36px;
+                    
+                }
+
+                .header-yazi-uye {
+                    width: 300px;
+                }
+
+                .header-two {
+                    margin-top: 550px;
+                    letter-spacing: normal;
+                    display: block;
+                    text-align: center;
+                    
+                    .buyuk-yazi  {
+                     text-align: center;
+                     margin-top: 35px;
+                     font-size: 12px;
+                     margin-left: 120px;
+                     width: auto;
+        
+                   
+        
+                    }
+                    .kucuk-yazi {
+                        width: 500px;
+                        display: contents;
+                        font-size: 15px;
+                        z-index: 3;
+                        margin-top: -268px;
+                        display: block;
+                        margin-left: 25px;
+        
+                    }
+                   }
+
+                   .header-two-image {
+
+                    display: none; }
+
+                    .header-three {
+                        margin-top: 980px;
+            
+                        .header-three-p1  {
+                            font-size: 13px;   
+                        }
+            
+                       }
+                       .header-three-image {
+
+                        display: block;
+                        height: 300px;
+                        width: 700px;
+                        margin-left: -105px;
+                        margin-top: 50px;
+            
+                       }
+
+                       .text-small {
+                        margin-top: -89px;
+                        font-size: 13px;
+                        margin-left: 4rem;
+                        width: 395px;
+                      }
+
+                      .footer-info {
+                        font-size: 7px;
+                        padding: 6px 8px;
+                      }
+
+                      .footer .footer1 {
+                        margin-left: 15px;
+                        
+            
+                    
+                    
+                      }
+
+                      .footer {
+                        width: 200px;
+                        
+                      }
+                      .footer2 {
+                        width: auto;
+                        margin-inline-start: 6rem;
+                      }
+                      .footer-flex-container img {
+                        display: block;
+                        margin-left: 100px;
+            
+                      }
+
+                      .lng {
+                        border: none;
+                        background-color: #040714;
+                        color: #ffffff9a;
+                        font-size: 7px;
+                        padding: 0px 8px;
+                      
+                      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+    
+        
+        
+    
+    
+    
